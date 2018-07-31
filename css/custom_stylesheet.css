@@ -1,0 +1,498 @@
+.nav-placeholder {
+	height: 41px;
+	width: 100%;
+	clear: both;
+}
+body {
+	margin: 0px;
+}
+
+ /*****************Styling Body************************************/
+ a{ color:teal;background-color: transparent;text-decoration: none}
+ a:hover{text-decoration: underline}
+/******************Styling of div element*************************/
+div{
+	text-align: justify;
+}
+
+/*****************Styling of header******************/
+#header1 {
+	height: 32px;
+	width: 100%;
+	background-color:transparent;
+	float:right;
+	margin-top:20px;
+}
+#header1 ul {
+	list-style-type: none;
+
+}
+
+#header1 ul li {
+	float:right;
+	padding: 1px 3px;
+	margin-top:2px;
+}
+#header1 ul li a#header1menu1 {
+	color:lightgray;
+	font-size: 14px;
+	padding: 15px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#header1 ul li a#header1menu1:hover{
+	color: orange;
+}
+#header1 ul li a img {
+	height: 25px;
+	width: 25px;
+}
+
+
+
+
+#header4 ul {
+	list-style-type: none;
+	display: inline;
+}
+
+#header4 ul li {
+	padding: 1px 3px;
+	margin-top:2px;
+}
+
+#header4 ul li a {
+	color:#666666;
+	font-family: "Microsoft Sans Serif";
+	font-weight: bolder;
+	font-size: 16px;
+}
+#header4 ul li a:hover {
+	background-color:transparent;
+	color:black;
+}
+
+
+
+#header2 {
+	width:100%;
+	height:100px;
+    background-color: white;
+}
+#header2 ul {
+	list-style-type: none;
+	display: inline;
+}
+
+#header2 ul li {
+	float: left;
+	padding: 1px 3px;
+	margin-top:2px;
+}
+#header2 ul li img{
+	padding: 0px 7px;
+}
+
+
+
+
+/**********************************Styling for parallex div*********************/
+.content {
+    height: 320px;
+    background-color: crimson red;
+}
+
+.parallax-bg {
+    padding: 150px;
+    background-image: url("../background/linux.jpg") ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+
+
+
+/********************Styling of Footer****************************/
+#footer1 {
+	background-image: url("../background/1.jpg");
+	border-top:7px solid lightslategray;
+	border-bottom:1px solid black;
+	color:white;
+	height: 310px;
+	width: 100%;
+	position:relative;
+	clear:both;
+	text-align:center;
+	margin-top:50px;
+	padding:0px;
+}
+#footer2 {
+	background: url("../background/6.jpg");
+	color:white;
+	height: 50px;
+	width: 100%;
+	padding-top:10px;
+}
+
+/********************Styling of Footer Section Box***********************/
+#section1 {
+	width:250px;
+	float:left;
+	padding:10px;
+	margin-left:90px;
+}
+#section2 {
+	width:350px;
+	float:left;
+	padding:10px;
+	margin-left:230px;
+}
+#section3 {
+	width:250px;
+	float:right;
+	padding:10px;
+	margin-right:90px;
+}
+
+
+#section1 ul li{
+	list-style-type: none;
+}
+#section1 ul  li a {
+	display:block;
+    color: white;
+    padding: 6px 6px;
+    text-decoration: none;
+    font-size:10px;
+}
+#section1 ul li a:visited {color:white; background-color:transparent; text-decoration:none}
+#section1 ul li a:hover   {color:gray; background-color:transparent; text-decoration:none}
+#section1 ul li a:active  {color:green; background-color:transparent; text-decoration:none}
+
+
+
+
+
+/******************Styling of Headers****************/
+h1 {
+    color: black;
+    font-family: verdana;
+}
+
+
+/*****************Styling of Table Elements************/
+table{
+	border-collapse:collapse;
+	border:1px solid black;
+	padding:8px;
+}
+th{
+	background-color:green;
+	color:white;
+	border:1px solid black;
+	padding:12px;
+}
+
+td {
+	background-color:lightsteelblue;
+	color:black;
+	border:1px solid black;
+	padding:8px;
+}
+tr:hover {
+	background-color:red;
+	color:yellow;
+}
+
+/*********************Styling of tooltip****************/
+.tooltip {
+    position: relative;
+    z-index: 20;
+}
+.tooltip span {
+	display: none;
+}
+.tooltip:hover {
+	z-index:21;
+}
+.tooltip:hover span {
+	display:block;
+    width: 100px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    text-decoration:none;
+
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*********************Styling image elements******************/
+img.opacity {
+    opacity: 0.4;
+}
+img.opacity:hover {
+    opacity: 1.0;
+}
+img.border1{
+	border-radius:50px;
+}
+img.back{
+	position:absolute;
+	left:0px;
+	right:0px;
+	z-index:-1;
+}
+
+
+
+/*********************Styling of Classes****************/
+
+.thick {
+	font-weight:bold;
+}
+
+.smallcaps {
+	font-variant:small-caps;
+}
+.error {
+	border: 1px solid black;
+	padding:10px;
+	margin:30px;
+}
+.clearflix{
+	overflow:auto;
+}
+
+
+
+/*********************Round corners element*********************/
+#rcorners {
+    border-radius: 15px 50px 30px 5px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+
+
+/*********************Bordering Image****************************/
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+}
+
+
+
+/*********************Styling Box with shadow********************/
+.text-shadow{
+	color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.box-shadow{
+	box-shadow: 5px 5px 2px black;
+}
+#boxshadow {
+    position: relative;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}
+/* Make the image fit the box */
+#boxshadow img {
+    width: 100%;
+    border: 1px solid #8a4419;
+    border-style: inset;
+}
+#boxshadow:after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    left: 15%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 0px;
+}
+
+
+/*********************2D Transformations******************/
+.translate{
+	-ms-transform: translate(50px,100px); /* IE 9 */
+    -webkit-transform: translate(50px,100px); /* Safari */
+    transform: translate(50px,100px);
+}
+.rotate{
+	-ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
+}
+.scale{
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Safari */
+    transform: scale(0.5,0.5);
+}
+.skew{
+	-ms-transform: skew(20deg, 10deg); /* IE 9 */
+    -webkit-transform: skew(20deg, 10deg); /* Safari */
+    transform: skew(20deg, 10deg);
+}
+matrix{
+	-ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+    -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); /* Safari */
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+
+/*********************Transition and transformation*********************/
+.transition{
+    width: 10%;
+    height: 10%;
+    -webkit-transition: width 2s linear 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s height 1s;
+}
+.transition:hover {
+    width:20%;
+    height:20%;
+}
+.transition-transformation{
+    width: 15%;
+    height: 15%;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+.transition-transformation:hover {
+    width: 20%;
+    height: 20px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+#btn-debug {
+	position:absolute;
+	right:0;
+}
+
+#console-debug {
+	position: absolute;
+	top:50px;
+	right:0px;
+	width:65%;
+	height:500px;
+	overflow-y:scroll;
+	background-color:#FFFFFF;
+	box-shadow: 2px 2px 5px #CCCCCC;
+	z-index: 9999999999999;
+}
+
+
+
+
+
+
+.carousel-caption {
+	bottom: 200px;
+}
+
+.carousel-caption h2 {
+	font-family: sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFF;
+	padding: 15px 0 0 20px;
+	-webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.carousel-caption p {
+	margin-top:20px;
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight:lighter;
+	color: #FFF;
+	padding: 0 0 0 20px;
+	line-height: 1px;
+}
+.carousel-caption a {
+	position:absolute;
+	margin-top:15px;
+	margin-left: -40px;
+	text-decoration:none;
+	text-align:center;
+	border: 1px solid white;
+	color: white;
+	padding: 5px;
+	border-radius: 3px;
+}
+.carousel-caption a:hover {
+	background-color:green;
+	text-decoration: none;
+	border-style:none;
+	padding: 6px;
+}
+
+
+#leftarrow {
+	width: 40px;
+	height: 40px;
+	line-height:40px;
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 0;
+	background: rgba(102,204,0,.2);
+	color: #FFF;
+	cursor: pointer;
+	z-index: 9;
+}
+
+#rightarrow {
+	width: 40px;
+	height: 40px;
+	line-height:40px;
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 40%;
+	right: 0;
+	background: rgba(102,204,0,.2);
+	color: #FFF;
+	cursor: pointer;
+	z-index: 9;
+}
+
+
+.Pagecontainer {
+	height: auto;
+	margin-left:100px;
+	margin-right:250px;
+	margin-top:100px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:50px;
+
+}
